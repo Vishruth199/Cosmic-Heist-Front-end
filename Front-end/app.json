@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "CosmicHiest",
+    "slug": "Cosmic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ch-icon.jpeg",
+    "splash": {
+      "image": "./assets/ch-icon.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"project.Cosmic",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ch-icon.jpeg",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/ch-icon.jpeg"
+    }
+  }
+}
