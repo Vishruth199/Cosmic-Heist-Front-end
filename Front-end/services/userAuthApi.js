@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 export const userAuthApi = createApi({
   reducerPath: 'userAuthApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://cosmichiest.herokuapp.com/api/user/'
+    baseUrl: 'http://localhost:8000/api/user/'
   }),
   endpoints: (builder) => ({
     registerUser: builder.mutation({
